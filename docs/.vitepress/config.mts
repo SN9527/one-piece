@@ -49,6 +49,7 @@ export default withMermaid({
         { text: 'ros2-humble-安装', link: '/g1-edu/ros2-humble-安装' },
         { text: 'unitree_sdk2-安装', link: '/g1-edu/unitree_sdk2-安装' },
         { text: '网络配置', link: '/g1-edu/网络配置' },
+        { text: 'mujoco-仿真器', link: '/g1-edu/mujoco-仿真器' },
         { text: 'slam-导航', link: '/g1-edu/slam-导航' }
       ],
     },
