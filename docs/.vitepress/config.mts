@@ -45,19 +45,11 @@ export default withMermaid({
     // ],
 
     sidebar: {
-      '/docker': [
-        {
-          items: [
-            { text: 'Docker', link: '/docker' },
-            {
-              text: '部署案例',
-              items: [
-                { text: 'SwaggerAPI文档', link: '/docker/php-swagger' },
-                { text: 'Zentao项目管理', link: '/docker/php-zentao' },
-              ]
-            },          
-          ]
-        }      
+      '/g1-edu': [
+        { text: 'ros2-humble-安装', link: '/g1-edu/ros2-humble-安装' },
+        { text: 'unitree_sdk2-安装', link: '/g1-edu/unitree_sdk2-安装' },
+        { text: '网络配置', link: '/g1-edu/网络配置' },
+        { text: 'slam-导航', link: '/g1-edu/slam-导航' }
       ],
     },
     // socialLinks: [

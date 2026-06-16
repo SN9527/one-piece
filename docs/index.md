@@ -6,13 +6,10 @@ hero:
   tagline: 知者不言、言者不知
   actions:
     - theme: brand
-      link: /docker    
+      link: /    
       text: 启航 ->
 features:
-  - title: docker
-    link: /docker    
-    details: 容器部署
-  - title: javascript
-    link: /javascript         
-    details: 编程语言                       
+  - title: G1-EDU 二次开发
+    link: /g1-edu   
+    details: 宇树机器人二次开发
 ---
