@@ -50,6 +50,8 @@ export default withMermaid({
         { text: 'unitree_sdk2-安装', link: '/g1-edu/unitree_sdk2-安装' },
         { text: '网络配置', link: '/g1-edu/网络配置' },
         { text: 'mujoco-仿真器', link: '/g1-edu/mujoco-仿真器' },
+        { text: 'cyclonedds-安装', link: '/g1-edu/cyclonedds-安装' },
+        { text: 'python-sdk-安装', link: '/g1-edu/python-sdk-安装' },
         { text: 'slam-导航', link: '/g1-edu/slam-导航' }
       ],
     },

@@ -11,8 +11,9 @@ mkdir build
 cd build
 cmake ..
 make
-./keyDemo eth1
 ```
+
+## 软件启动
 
 - slam_example目录结构
 
@@ -28,15 +29,17 @@ make
     └── relocation.rviz
 ```
 
+```bash
+./keyDemo eth1
+```
+
 
 ## 功能说明
 
 - 按 `q` 开始建图，遥控机器人走遍厂里
 - 按 `a` 进行定位
-- 按 `s`增加位姿（导航拓扑点）
+- 按 `s` 增加位姿（导航拓扑点）
 - 按 `w` 结束建图
-
-
 - 按 `d` 自动导航
 - 按 `z` 暂停导航
 - 按 `x` 恢复导航
@@ -56,3 +59,8 @@ rviz2 #配置文件 ~/slam_example/rviz2/mapping.rviz
 source /opt/ros/humble/setup.bash
 rviz2 #配置文件 ~/slam_example/rviz2/relocation.rviz
 ```
+
+
+## 获取SLAM点云地图
+
+### C++方式
